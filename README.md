@@ -1,7 +1,7 @@
 # Stytch Vanilla JavaScript example application
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/100632220/217049841-b9eeb72a-3e50-4074-839a-e64ee5d4a88c.png" width="750">
+  <img src="doc/img/stytch-example-b2b.png" width="750">
 </p>
 
 ## Overview
@@ -86,8 +86,8 @@ This example app showcases a small portion of what you can accomplish with Stytc
 
 #### :speech_balloon: Stytch community Slack
 
-Join the discussion, ask questions, and suggest new features in our ​[Slack community](https://join.slack.com/t/stytch/shared_invite/zt-nil4wo92-jApJ9Cl32cJbEd9esKkvyg)!
+Join the discussion, ask questions, and suggest new features in Stytch's ​[Slack community](https://join.slack.com/t/stytch/shared_invite/zt-nil4wo92-jApJ9Cl32cJbEd9esKkvyg)!
 
 #### :question: Need support?
 
-Check out the [Stytch Forum](https://forum.stytch.com/) or email us at [support@stytch.com](mailto:support@stytch.com).
+Check out the [Stytch Forum](https://forum.stytch.com/) or email [support@stytch.com](mailto:support@stytch.com).
