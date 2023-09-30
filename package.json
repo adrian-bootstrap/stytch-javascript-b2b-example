@@ -1,9 +1,9 @@
 {
-  "name": "stytch-javascript-example",
+  "name": "stytch-javascript-b2b-example",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "http-server -p 3000 -o -a localhost"
+    "dev": "http-server -p 5000 -o -a localhost"
   },
   "dependencies": {
     "http-server": "^14.1.1"

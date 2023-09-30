@@ -1,11 +1,10 @@
-import { StytchUIClient } from "https://www.unpkg.com/@stytch/vanilla-js@2.0/dist/index.esm.js";
+import { StytchB2BUIClient } from "https://www.unpkg.com/@stytch/vanilla-js@2.0/dist/b2b/index.esm.js";
 
 // Replace this value with the public token found it your Stytch Dashboard.
-const STYTCH_PUBLIC_TOKEN =
-  "public-token-test-eef17416-15a2-46fe-b6db-3751738f92f1";
+const STYTCH_PUBLIC_TOKEN = "{{YOUR_TOKEN_HERE}}";
 
 // Export stytch so that the other scripts in this application can interact with it.
-export const stytch = new StytchUIClient(STYTCH_PUBLIC_TOKEN);
+export const stytch = new StytchB2BUIClient(STYTCH_PUBLIC_TOKEN);
 
 /*
 Session logic

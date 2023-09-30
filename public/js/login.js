@@ -1,4 +1,4 @@
-import { Products } from "https://www.unpkg.com/@stytch/vanilla-js@0.9.5/dist/index.esm.js";
+import { Products } from "https://www.unpkg.com/@stytch/vanilla-js@2.0/dist/b2b/index.esm.js";
 import { stytch } from "./app.js";
 
 const styles = {
@@ -13,7 +13,7 @@ const styles = {
   },
 };
 
-const REDIRECT_URL = "http://localhost:3000/authenticate";
+const REDIRECT_URL = "http://localhost:5000/authenticate";
 const config = {
   products: [Products.emailMagicLinks, Products.oauth],
   emailMagicLinksOptions: {
@@ -27,6 +27,7 @@ const config = {
     loginRedirectURL: REDIRECT_URL,
     signupRedirectURL: REDIRECT_URL,
   },
+  authFlowType: "Discovery",
 };
 
 /*
@@ -39,9 +40,9 @@ to a protected page after a user successfully logs in.
 const callbacks = {
   onEvent: (message) => console.log(message),
   onError: (error) => console.log(error),
-}
+};
 
-stytch.mountLogin({
+stytch.mount({
   elementId: "#stytch-sdk",
   styles,
   config,
