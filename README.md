@@ -1,4 +1,4 @@
-# Stytch Vanilla JavaScript example application
+# Stytch Vanilla JavaScript B2B example application
 
 <p align="center">
   <img src="doc/img/stytch-example-b2b.png" width="750">
