@@ -23,11 +23,14 @@ const config = {
     signupExpirationMinutes: 60,
   },
   oauthOptions: {
-    providers: [{ type: "google" }],
+    providers: ["google"],
     loginRedirectURL: REDIRECT_URL,
     signupRedirectURL: REDIRECT_URL,
   },
   authFlowType: "Discovery",
+  sessionOptions: {
+    sessionDurationMinutes: 60,
+  },
 };
 
 /*
